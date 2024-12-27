@@ -1,4 +1,6 @@
 const Hireme = require('../models/HireMeMongoose');
+const mongoose = require('mongoose');
+
 
 // Connect to MongoDB (only if not connected)
 const connectDB = async () => {

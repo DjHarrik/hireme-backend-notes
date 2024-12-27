@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(express.json()); // Parse JSON data
-app.use(cors()); // Allow cross-origin requests
+app.use(cors());
 
 // Health Check Route
 app.get('/api/health', (req, res) => {
